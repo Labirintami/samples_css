@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5 {
 	box-sizing: border-box;
 }
 
-.dhx_sample-nav {
+/* .dhx_sample-nav {
 	font-family: Roboto,Arial,Tahoma,Verdana,sans-serif;
 }
 .dhx_sample-nav li {    
@@ -44,12 +44,12 @@ h1,h2,h3,h4,h5 {
 .dhx_sample-nav li a:visited {
   color: #7b42fd;
   text-decoration: none;
-}
-.dhx_sample-header {
+} */
+/* .dhx_sample-header {
 	background-color: rgba(247, 247, 247, 0);
 	width: 100%;
 	border-bottom: 1px solid #DFDFDF;
-}
+} */
 .dhx_sample-controls {
 	display: flex;
 	justify-content: center;
