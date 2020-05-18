@@ -505,3 +505,9 @@ h1,h2,h3,h4,h5 {
 .dhx_sample-container__widget--timepicker {
 	max-width: 268px;
 }
+
+/* https://docs.dhtmlx.com/suite/samples/treegrid/common/treegrid.css?v=6.4.3 */
+
+.dhx_form-group--inline {
+    max-width: 300px;
+}
