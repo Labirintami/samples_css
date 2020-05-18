@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5 {
 .dhx_sample-controls select:not(:last-child) {
 	margin-right: 12px;
 }
-.dhx_sample-header__main {
+/* .dhx_sample-header__main {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -162,7 +162,7 @@ h1,h2,h3,h4,h5 {
 .dhx_sample-header-link:last-child:after {
 	content: ".";
 	color: #BCC6DC;
-}
+} */
 .dhx_sample-container {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -470,7 +470,7 @@ h1,h2,h3,h4,h5 {
 	max-width: 938px;
 }
 
-.dhx_sample-nav ol {
+/* .dhx_sample-nav ol {
 	counter-reset:listNumber;
 	padding-left: 20px;
 }
@@ -489,8 +489,8 @@ h1,h2,h3,h4,h5 {
 }
 .dhx_sample-nav ol li:not(.skip):before {
     content:counter(listNumber) ".";
-}
-.icon-pro:after {
+} */
+/* .icon-pro:after {
     content: " ";
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAOCAYAAAChHnWMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKaSURBVHgBtVRBTBNREJ3fLmgqSAVDIlBTDtoSMWCUg6YX7LnRmyegBzGmJFKiB+NB7UHlYuwFY9SYEk7cMNxIKtFEjXCwB2OLMdqIYDRCCoSSpkvXeb/duq1dEw19zXb3z+z+eTPz5gsywDkbtNtq08OU0/wkyEk7jxiuXNYaSvQ+SOpGoT8ceX1hgNRcWBPCTtVHSiMRinsehrGw4K/z5eCwtq1FqkGgZVdTJbNdkHbPjcQZwj170WlV1LflBGaO36bW3fuL68TmIk0sR2nqxyvq2XuYIkevFH0bapqiqzEa+zJNy5kVaes74KWhgz6qV2zSj2/HFqfLyaTS2Wy7IqzqTbMK6IGB041ddOuQn5YyP4m0vB+E5tc+MNkmCjh81MpZ+9/dpSF+DjCBiW9RmltboJ4Gl1zjs/ulROw2pTaoCAt1kQnWOQMEApCpt+kYnW0+RVPf87Y5JvC04Ed1EAw403ySFjiB0U+Tcv1sJUYdtjbqb/GWk2BoA6wJ0W1GooFLiZ7iQnYAMtfRxnYE9zZ2y3eQNcqPNsaZhBEgXF/YrwQ8hQr9Ba49Dpo5cUdnTG84iK4JACUOkK+Y7ejnSfofKLx30uxMgCawMYS1lFmVdyPgi3Lw8c7L5Kpz0Pr2lnwHV2tZxm72A7pwDYhxO7RxMgE0gfInNr/+QSDv35KbXvsYkUExEQCmAPq42n5OVg13tAxCrYCYUquq4WxNzSVW7j6jR5M/cxi9IDrPrYLwEAgThf73M6k+tskRZbsu1N+baKmcqoTkiel+Mei3WOgJGU7QnQKEuFFoU4VERuKex+Fi0I7n54MWq7heXpGqgCtAQoy89zyKYFmSOU5PPrxu5M8O89E14N8qhyFgDabVunCyN5zSzb8AQjIlfRPjeDgAAAAASUVORK5CYII=');
     display: inline-block;
@@ -500,7 +500,7 @@ h1,h2,h3,h4,h5 {
     top: 2px;
     left: 4px;
     position: relative;
-}
+} */
 .dhx_sample-container__widget--timepicker {
 	max-width: 268px;
 }
