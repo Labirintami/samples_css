@@ -58,7 +58,8 @@ h1,h2,h3,h4,h5 {
 	height: 60px;
 	border-bottom: 1px solid #DFDFDF;
 	font-family: Roboto,Arial,Tahoma,Verdana,sans-serif;
-	font-size: 14px;
+    font-size: 14px;
+    background: #fff;
 }
 .dhx_sample-controls button:not(:last-child),
 .dhx_sample-controls input:not(:last-child),
