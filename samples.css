@@ -509,6 +509,50 @@ h1,h2,h3,h4,h5 {
 
 /* https://docs.dhtmlx.com/suite/samples/treegrid/common/treegrid.css?v=6.4.3 */
 
+/* sidebar http://localhost:8080/samples/sidebar/common/sidebar.css + инлайн из семплов*/
+
+.dhx_sample_controls--sidebar {
+    margin-top: 20px;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 400px;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    left: 50%;
+  }
+  /* .dhx_sample-container--sidebar {
+    height: calc(100vh - 61px);
+    margin-top: 0;
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+  } */
+  /* .dhx_sample-container__result--sidebar {
+    width: 100%;
+    height: calc(100vh - 61px);
+  } */
+
+  .dhx_textarea--sidebar {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    font-size: 18px;
+    border: none;
+    resize: none;
+    padding: 20px;
+  }
+  .dhx_textarea--sidebar:focus {
+    outline: 0;
+  }
+
+
+
+
+
+
+
 .dhx_form-group--inline {
     max-width: 300px;
 }
