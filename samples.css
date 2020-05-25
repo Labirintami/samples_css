@@ -381,3 +381,8 @@ h1,h2,h3,h4,h5 {
   .dhx_textarea--sidebar:focus {
     outline: 0;
   }
+
+  /* layout  */
+  .dhx_layout-cell-content:not(.dhx_layout-cell) {
+    padding: 12px;
+}
