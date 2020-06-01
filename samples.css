@@ -343,17 +343,13 @@ h1,h2,h3,h4,h5 {
 
 /* Colorpicker */
 
-.dhx_color-sample{
-	border: solid 1px #e4e4e4;
-}
-
-.dhx_sample-container--treegrid{
+/* .dhx_sample-container--treegrid{
 	max-width: 938px;
 }
 
 .dhx_sample-container__widget--timepicker {
 	max-width: 268px;
-}
+} */
 
 /* sidebar /samples/sidebar/common/sidebar.css and inline styles from samples*/
 .dhx_sample_controls--sidebar {
