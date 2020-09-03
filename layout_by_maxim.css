@@ -1,0 +1,133 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	background: #ebedf0;
+}
+
+.wbx-view {
+	flex-grow: 0;
+	flex-shrink: 0;
+	overflow: hidden;
+	min-width: 0;
+	min-height: 0;
+}
+.wbx-layout-x,
+.wbx-layout-y {
+	display: flex;
+	flex-direction: row;
+}
+body > .wbx-view {
+	border: none;
+}
+.wbx-layout-y {
+	flex-direction: column;
+}
+.wbx-template {
+	background: white;
+}
+.wbx-template div {
+	padding: 10px;
+	min-width: 0px;
+}
+.wbx-button button {
+	height: 100%;
+	width: 100%;
+
+	white-space: nowrap;
+}
+.wbx-button {
+	border: none !important;
+}
+
+.wbx-layout-space {
+	background: #ebedf0;
+	border: none;
+}
+.wbx-layout-x.wbx-layout-space > .wbx-view {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid silver;
+}
+.wbx-layout-x.wbx-layout-space > .wbx-view:last-child {
+	margin-right: 10px;
+}
+.wbx-layout-y.wbx-layout-space > .wbx-view {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.wbx-layout-y.wbx-layout-space > .wbx-view:last-child {
+	margin-bottom: 10px;
+}
+
+.wbx-layout-wide {
+	background: transparent;
+	border: none !important;
+}
+
+.wbx-layout-x.wbx-layout-wide > .wbx-view {
+	margin-right: 10px;
+	border: 1px solid silver;
+}
+.wbx-layout-x.wbx-layout-wide > .wbx-view:last-child {
+	margin-right: 0px;
+}
+.wbx-layout-y.wbx-layout-wide > .wbx-view {
+	margin-bottom: 10px;
+	border: 1px solid silver;
+}
+.wbx-layout-y.wbx-layout-wide > .wbx-view:last-child {
+	margin-bottom: 0px;
+}
+
+.wbx-layout-x.wbx-layout-line > .wbx-view {
+	border-right: 1px solid silver;
+}
+.wbx-layout-x.wbx-layout-line > .wbx-view:last-child {
+	border-right: none;
+}
+.wbx-layout-y.wbx-layout-line > .wbx-view {
+	border-bottom: 1px solid silver;
+}
+.wbx-layout-y.wbx-layout-line > .wbx-view:last-child {
+	border-bottom: none;
+}
+
+.wbx-layout-toolbar {
+	background: silver;
+}
+.wbx-layout-x.wbx-layout-toolbar > .wbx-view {
+	margin: 2px;
+	margin-right: 4px;
+}
+.wbx-layout-x.wbx-layout-toolbar > .wbx-view:last-child {
+	margin-right: 0px;
+}
+.wbx-layout-y.wbx-layout-toolbar > .wbx-view {
+	margin-bottom: 4px;
+}
+.wbx-layout-y.wbx-layout-toolbar > .wbx-view:last-child {
+	margin-bottom: 0px;
+}
+
+.scroll {
+	overflow: auto;
+}
+
+.wbx-layout-x.wbx-layout-line > .wbx-layout-wide {
+	margin-left: -1px;
+}
+.wbx-layout-y.wbx-layout-line > .wbx-layout-wide {
+	margin-top: -1px;
+}
+
+.wbx-layout-x.wbx-layout-line > .wbx-layout-wide > .wbx-view:first-child {
+	border-top: none;
+}
+.wbx-layout-x.wbx-layout-line > .wbx-layout-wide > .wbx-view:last-child {
+	border-bottom: none;
+}
