@@ -1,8 +1,6 @@
 DHTMLX Pivot
 ================
 
-![dhx-pivot](https://dhtmlx.com/images/common/screen/dhx-pivot-upd.png width="120" height="120")
-
 License
 
 DHTMLX Pivot is available under the commercial license only. 
@@ -17,4 +15,4 @@ Useful links
 - [DHTMLX Pivot news](https://dhtmlx.com/blog/tag/pivot/)
 - [Community forum](https://forum.dhtmlx.com/c/widgets/pivot) 
 
-
+![dhx-pivot](https://dhtmlx.com/images/common/screen/dhx-pivot-upd.png)
