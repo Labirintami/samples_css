@@ -1,7 +1,7 @@
 DHTMLX Pivot
 ================
 
-![dhx-pivot](https://dhtmlx.com/images/common/screen/dhx-pivot-upd.png =250x)
+![dhx-pivot](https://dhtmlx.com/images/common/screen/dhx-pivot-upd.png width="120" height="120")
 
 License
 
